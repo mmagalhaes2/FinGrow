@@ -3,14 +3,31 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Fingrow - Login</title>
 
     <link rel="stylesheet" href="login.css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
   </head>
-  <body>
-    <h1>LOGIN</h1>
+  <body class="bg-mint">
+    <div class="m-4">
+      <section class="flex justify-between">
+        <img class="" src="../../assets/svgs/chevron-left-solid.svg" alt="back-button" />
+        <h3 class="">Login</h3>
+        <div></div>
+      </section>
+
+      <section>
+        <form action="">
+          <input class="w-full" placeholder="Email" type="email" name="email" id="email" />
+          <input class="w-full" placeholder="Senha" type="password" name="password" id="password" />
+          <div>
+            <button class="w-full">Entrar</button>
+            <button class="w-full">Recuperar senha</button>
+          </div>
+        </form>
+      </section>
+    </div>
   </body>
   <script src="../../tailwind.config.js"></script>
 </html>
