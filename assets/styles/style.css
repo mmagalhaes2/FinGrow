@@ -1,0 +1,85 @@
+.mint {
+  color: #00c7be;
+}
+
+.bg-mint {
+  background-color: #00c7be;
+}
+
+.bg-quaterniry {
+  background-color: rgba(116, 116, 128, 0.08);
+}
+
+.mt-auto {
+  margin-top: auto;
+}
+
+.text-muted {
+  color: #8e8e93;
+}
+
+.title {
+  opacity: 1;
+  color: rgba(0, 0, 0, 1);
+  font-family: "SFPro-Semibold";
+  font-size: 17px;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 0px;
+  text-align: center;
+  line-height: 22px;
+}
+
+.fingrow-field {
+  border-radius: 12px !important;
+  border-color: #ffffff;
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(0, 199, 190, 1);
+  font-family: "SFPro-Regular";
+  font-size: 17px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0px;
+  text-align: left;
+  line-height: 20px;
+  padding: 16px 20px !important;
+}
+
+.fingrow-field::placeholder {
+  color: rgba(0, 199, 190, 1)
+}
+
+.fingrow-field:focus {
+  border-color: #00c7be !important;
+  box-shadow: unset !important;
+}
+
+.fingrow-btn {
+  border-radius: 12px;
+  opacity: 1;
+  background-color: rgba(0, 199, 190, 1);
+
+  opacity: 1;
+  color: rgba(255, 255, 255, 1);
+  font-family: "SFPro-Regular";
+  font-size: 17px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0px;
+  text-align: left;
+  line-height: 20px;
+  padding: 16px;
+  text-align: center;
+}
+
+.fingrow-btn-outline {
+  color: #636366;
+  font-family: "SFPro-Regular";
+  font-size: 17px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0px;
+  text-align: center;
+  line-height: 20px;
+  padding: 16px;
+}

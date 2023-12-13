@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="language" content="portugues">
+    <meta http-equiv="content-type" content="text/html">
+    <meta name="author" content="Matheus H Magalhaes">
+    <meta name="designer" content="Matheus H Magalhaes">
+
+    <title>Fingrow - Dashboard</title>
+    <meta name="description" content="">
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#000000" />
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#ffffff" />
+
+    <!--Meta Tags for HTML pages on Mobile-->
+    <meta name="format-detection" content="telephone=yes" />
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--http-equiv Tags-->
+    <meta http-equiv="Content-Style-Type" content="text/css">
+    <meta http-equiv="Content-Script-Type" content="text/javascript">
+
+    <link rel="stylesheet" href="dashboard.css" />
+    <link rel="stylesheet" href="../../assets/styles/style.css" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-quaterniry md:flex md:justify-center">
+    <div class="m-4 flex flex-col md:w-1/2">
+        <section class="w-full">
+            <!-- <div class="flex justify-center" style="height: 45px; position: relative;">
+            <img class="self-end" style="position: absolute; left: 0;" style="width: 16px; height: 16px;"
+              src="../../assets/svgs/chevron-left-solid.svg" alt="back-button" onclick="redirectIndexPage()" />
+            <h3 class="self-end">Dashboard</h3>
+          </div> -->
+            <div class="flex items-end justify-between" style="height: 150px;">
+                <h1 class="title">Resumo</h1>
+                <img class="ml-auto" src="../../assets/svgs/circle-user-solid.svg" alt="">
+            </div>
+        </section>
+
+        <section class="month-balance">
+            <div class="filter">
+
+            </div>
+
+            <div class="value-box">
+                <h5 class="month-description">Balanco semanal</h5>
+                <h1 class="month-value">R$ 5.000,00</h1>
+            </div>
+
+            <div class="chart-box">
+
+            </div>
+        </section>
+
+        <section class="revenue">
+            <div class="flex justify-between items-center">
+                <h3 class="section-title">Receitas</h3>
+                <span class="section-action">+ Ver mais</span>
+            </div>
+
+            <div class="section-content">
+                <table class="w-full">
+                    <tr class="section-item">
+                        <td>
+                            <img src="../../assets/svgs/dollar-sign-solid.svg" style="height: 24px" alt="">
+                        </td>
+                        <td>
+                            <span>Salario</span>
+                        </td>
+                        <td class="text-center">
+                            <span>01/10/2023</span>
+                        </td>
+                        <td class="text-end">
+                            <span>+ R$ 5.000,00</span>
+                        </td>
+                    </tr>
+
+                    <tr class="section-item">
+                        <td>
+                            <img src="../../assets/svgs/dollar-sign-solid.svg" style="height: 24px" alt="">
+                        </td>
+                        <td>
+                            <span>Rendim…</span>
+                        </td>
+                        <td class="text-center">
+                            <span>11/10/2023</span>
+                        </td>
+                        <td class="text-end">
+                            <span>+ R$ 11.000,00</span>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+
+        <section class="expenses">
+            <div class="flex justify-between items-center">
+                <h3 class="section-title">Despesas</h3>
+                <span class="section-action">+ Ver mais</span>
+            </div>
+
+            <div class="section-content">
+                <table class="w-full">
+                    <tr class="section-item">
+                        <td>
+                            <img src="../../assets/svgs/spotify.svg" style="height: 24px;" alt="">
+                        </td>
+                        <td>
+                            <span>Spotify</span>
+                        </td>
+                        <td class="text-center">
+                            <span>01/10/2023</span>
+                        </td>
+                        <td class="text-end">
+                            <span>- R$ 32,99</span>
+                        </td>
+                    </tr>
+
+                    <tr class="section-item">
+                        <td>
+                            <img src="../../assets/svgs/shop-solid.svg" style="height: 20px;" alt="">
+                        </td>
+                        <td>
+                            <span>Mercado</span>
+                        </td>
+                        <td class="text-center">
+                            <span>02/10/2023</span>
+                        </td>
+                        <td class="text-end">
+                            <span>- R$ 900,89</span>
+                        </td>
+                    </tr>
+
+                    <tr class="section-item">
+                        <td>
+                            <img src="../../assets/svgs/shop-solid.svg" style="height: 20px;" alt="">
+                        </td>
+                        <td>
+                            <span>Entreteni…</span>
+                        </td>
+                        <td class="text-center">
+                            <span>12/10/2023</span>
+                        </td>
+                        <td class="text-end">
+                            <span>- R$ 200,00</span>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+
+        <section class="target mb-24">
+            <div class="flex justify-between items-center">
+                <h3 class="section-title">Objetivos</h3>
+                <span class="section-action">+ Ver mais</span>
+            </div>
+
+            <div class="section-content">
+                <div class="target-item mb-4">
+                    <img class="target-img" src="../../assets/svgs/fuji-japan-japanese-svgrepo-com.svg" alt="">
+
+                    <div class="w-full ml-3">
+                        <div class="target-title">
+                            <span>Viagem Japão</span>
+                            <span>R$ 35.000,00</span>
+                        </div>
+                        <div class="target-progress-bar">
+                            <div class="target-progress w-1/4"></div>
+                        </div>
+                        <div class="target-value">
+                            <small>R$ 8.750,00 / 25%</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="target-item">
+                    <img class="target-img" src="../../assets/svgs/vault-solid.svg" alt="">
+
+                    <div class="w-full ml-3">
+                        <div class="target-title">
+                            <span>Reserva de Emer…</span>
+                            <span>R$ 50.000,00</span>
+                        </div>
+                        <div class="target-progress-bar">
+                            <div class="target-progress w-0"></div>
+                        </div>
+                        <div class="target-value">
+                            <small>R$ 0.00 / 0%</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="navbar">
+            <div class="navbar-items">
+                <div class="navbar-item">
+                    <img src="../../assets/svgs/money-bill-trend-up-solid.svg" style="height: 24px" alt="">
+                    <h3 class="mt-2 mint">Resumo</h3>
+                </div>
+
+                <div class="navbar-item">
+                    <img src="../../assets/svgs/dollar-sign-solid.svg" style="height: 24px" alt="">
+                    <h3 class="mt-2">Receitas</h3>
+                </div>
+
+                <div class="navbar-item">
+                    <img src="../../assets/svgs/receipt-solid.svg" style="height: 24px" alt="">
+                    <h3 class="mt-2">Despesas</h3>
+                </div>
+
+                <div class="navbar-item">
+                    <img src="../../assets/svgs/bullseye-solid.svg" style="height: 24px" alt="">
+                    <h3 class="mt-2">Objetivos</h3>
+                </div>
+
+            </div>
+        </footer>
+    </div>
+</body>
+<script src="../../tailwind.config.js"></script>
+<script src="dashboard.js"></script>
+
+</html>
