@@ -1,41 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Fingrow</title>
+<html lang="pt-br">
 
-    <link rel="stylesheet" href="style.css" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
-  </head>
-  <body>
-    <div class="flex h-full justify-center items-center bg-mint">
-      <div class="flex flex-col h-full w-full justify-end m-4">
-        <div class="flex justify-center mb-40">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            height="34"
-            width="34"
-            viewBox="0 0 448 512"
-            fill="white"
-          >
-            <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
-            <path
-              d="M160 80c0-26.5 21.5-48 48-48h32c26.5 0 48 21.5 48 48V432c0 26.5-21.5 48-48 48H208c-26.5 0-48-21.5-48-48V80zM0 272c0-26.5 21.5-48 48-48H80c26.5 0 48 21.5 48 48V432c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V272zM368 96h32c26.5 0 48 21.5 48 48V432c0 26.5-21.5 48-48 48H368c-26.5 0-48-21.5-48-48V144c0-26.5 21.5-48 48-48z"
-            />
-          </svg>
-          <h1 class="font-mono text-white text-4xl font-extrabold ml-2">
-            FinGrow
-          </h1>
-        </div>
-        <button class="w-full bg-white mint rounded-xl p-3 mb-4" onclick="redirectLoginPage()">Entrar</button>
-        <button class="w-full bg-mint text-white rounded-xl p-3 mb-24" onclick="redirectSigninPage()">
-          Cadastrar
-        </button>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="language" content="portugues">
+  <meta http-equiv="content-type" content="text/html">
+  <meta name="author" content="Matheus H Magalhaes">
+  <meta name="designer" content="Matheus H Magalhaes">
+
+  <title>Fingrow</title>
+  <meta name="description" content="">
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#00c7be" />
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="black" />
+
+  <!--Meta Tags for HTML pages on Mobile-->
+  <meta name="format-detection" content="telephone=yes" />
+  <meta name="HandheldFriendly" content="true" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!--http-equiv Tags-->
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <meta http-equiv="Content-Script-Type" content="text/javascript">
+
+  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="assets/styles/style.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+  <div class="flex h-full justify-center items-center bg-mint">
+    <div class="flex flex-col h-full w-full justify-end m-4 md:w-1/3">
+      <div class="flex justify-center mb-40">
+        <svg xmlns="http://www.w3.org/2000/svg" height="34" width="34" viewBox="0 0 448 512" fill="white">
+          <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
+          <path
+            d="M160 80c0-26.5 21.5-48 48-48h32c26.5 0 48 21.5 48 48V432c0 26.5-21.5 48-48 48H208c-26.5 0-48-21.5-48-48V80zM0 272c0-26.5 21.5-48 48-48H80c26.5 0 48 21.5 48 48V432c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V272zM368 96h32c26.5 0 48 21.5 48 48V432c0 26.5-21.5 48-48 48H368c-26.5 0-48-21.5-48-48V144c0-26.5 21.5-48 48-48z" />
+        </svg>
+        <h1 class="font-mono text-white text-4xl font-extrabold ml-2">
+          FinGrow
+        </h1>
       </div>
+      <button class="w-full bg-white mint rounded-xl p-3 mb-4" onclick="redirectLoginPage()">Entrar</button>
+      <button class="w-full bg-mint text-white rounded-xl p-3 mb-24" onclick="redirectSigninPage()">
+        Cadastrar
+      </button>
     </div>
-  </body>
-  <script src="../../tailwind.config.js"></script>
-  <script src="main.js"></script>
+  </div>
+</body>
+<script src="../../tailwind.config.js"></script>
+<script src="main.js"></script>
+
 </html>

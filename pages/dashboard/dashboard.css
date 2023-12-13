@@ -1,0 +1,171 @@
+.title {
+    opacity: 1;
+    color: rgba(0, 0, 0, 1);
+    font-family: "SFPro-Bold";
+    font-size: 34px !important;
+    font-weight: 700;
+    line-height: 41px;
+}
+
+.month-balance {
+    margin-top: 24px;
+}
+
+.value-box {
+    margin-top: 24px;
+}
+
+.chart-box {
+    margin-top: 24px;
+}
+
+.chart-box {
+    height: 180px;
+    background-color: #ffffff;
+    border-radius: 12px;
+}
+
+.month-description {
+    opacity: 1;
+    color: rgba(142, 142, 147, 1);
+    font-family: "SFPro-Regular";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.month-value {
+    font-family: "SFPro-Medium";
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-top: 8px;
+}
+
+.revenue {
+    margin-top: 32px;
+}
+
+.section-title {
+    font-family: "SFPro-Medium";
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.section-action {
+    color: #00c7be;
+    font-family: "SFPro-Regular";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.section-content {
+    background-color: #ffffff;
+    margin-top: 8px;
+    padding: 16px;
+    border-radius: 12px;
+}
+
+.section-item {
+    font-family: "SFPro-Regular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.section-item td {
+    padding-top: 8px;
+}
+
+.revenue .section-item td:last-child {
+    color: rgba(52, 199, 89, 1);
+}
+
+.expenses {
+    margin-top: 32px;
+}
+
+.expenses .section-item td:last-child {
+    color: rgb(255, 59, 48);
+}
+
+.target {
+    margin-top: 32px;
+}
+
+.target-item {
+    display: flex;
+    background-color: rgba(116, 116, 128, 0.05);
+    border-radius: 12px;
+    padding: 16px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.target-img {
+    padding: 8px;
+    background-color: #ffffff;
+    border-radius: 12px;
+}
+
+.target-title {
+    font-family: "SFPro-Semibold";
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 22px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.target-progress-bar {
+    margin-top: 8px;
+    height: 8px;
+    background-color: rgba(142, 142, 147, 0.2);
+    border-radius: 4px;
+    width: 100%;
+}
+
+.target-progress {
+    height: 8px;
+    background-color: rgb(0, 199, 190);
+    border-radius: 4px;
+}
+
+.target-value {
+    margin-top: 4px;
+    color: rgb(0, 199, 190);
+    font-family: "SFPro-Regular";
+    font-size: 10px !important;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.navbar {
+    position: fixed;
+    background: #ffffff;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 16px;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.navbar-items {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar-item {
+    color: #999999;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    font-family: "SFPro-Medium";
+    font-size: 10px;
+    font-weight: 500;
+    text-align: center;
+    cursor: pointer;
+}
